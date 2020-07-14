@@ -33,11 +33,8 @@ class Book
     @author
   end
 
-  @counter = 0
-
   def turn_page
-    @counter += 1
-    @counter
+    puts "Flipping the page...wow, you read fast!"
   end
 
 end
