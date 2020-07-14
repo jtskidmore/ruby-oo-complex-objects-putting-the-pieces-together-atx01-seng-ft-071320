@@ -33,4 +33,10 @@ class Book
     @author
   end
 
+  @counter = 0
+
+  def turn_page
+    @counter+=1
+  end
+
 end
