@@ -37,6 +37,7 @@ class Book
 
   def turn_page
     @counter+=1
+    @counter
   end
 
 end
